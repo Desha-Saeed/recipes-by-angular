@@ -21,11 +21,13 @@
 
 
           <div class="input-search">
-              <div class="input-group">
-                <i class="fas fa-search"></i>
-                <input  [(ngModel)]="searchValue" class="form-control  rounded"/>
-                <button type="button" class="btn btn-dark" (click)="updateSearch()" data-mdb-ripple-init>search</button>
-              </div>
+            <div class="input-group">
+              <i class="fas fa-search"></i>
+              <input [(ngModel)]="searchValue" class="form-control rounded" />
+              <button type="button" class="btn btn-dark" (click)="submitSearch()" data-mdb-ripple-init>
+                Search
+              </button>
+            </div>
           </div>
 
         </div>
